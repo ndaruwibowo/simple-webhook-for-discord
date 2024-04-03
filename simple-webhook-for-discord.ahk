@@ -25,7 +25,7 @@ Below is the main script, do not edit if you do not familiar with AHK v2 scripti
 */
 ; Input box for message
 If(DiscordWebhookToken = "replace_me"){
-    MsgBox("Please insert your Discord bot token into the script line 17", "Error: Token is not defined", "OK Iconx")
+    MsgBox("Please insert your Discord bot token into the script line 17.`nEdit the script file and open it again.", "Error: Token is not defined", "OK Iconx")
 } else {
     IB := InputBox("Type your message", "Message to send",, "Hello world!")
     if(IB.Result = "Cancel"){
